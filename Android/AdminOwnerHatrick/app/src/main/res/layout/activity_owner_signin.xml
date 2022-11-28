@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> b1569ce (new AO)
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -64,7 +68,11 @@
             android:text="E-mail"
             android:textColor="@color/darkCyan"
             android:layout_marginLeft="40dp"
+<<<<<<< HEAD
             android:layout_marginTop="50dp"
+=======
+            android:layout_marginTop="30dp"
+>>>>>>> b1569ce (new AO)
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -187,7 +195,11 @@
             android:textColor="@color/black"
             android:textSize="16sp"
             android:textStyle="bold"
+<<<<<<< HEAD
             android:layout_marginTop="30dp"
+=======
+            android:layout_marginTop="10dp"
+>>>>>>> b1569ce (new AO)
             android:layout_marginLeft="120dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -202,7 +214,11 @@
             android:text="Contact An Admin"
             android:textColor="@color/darkCyan"
             android:textSize="16sp"
+<<<<<<< HEAD
             android:layout_marginTop="20dp"
+=======
+            android:layout_marginTop="7dp"
+>>>>>>> b1569ce (new AO)
             android:layout_marginLeft="135dp"
             android:layout_marginBottom="40dp"
             android:textStyle="bold"
@@ -217,5 +233,9 @@
 
 
     </LinearLayout>
+<<<<<<< HEAD
 </ScrollView>
+=======
+</LinearLayout>
+>>>>>>> b1569ce (new AO)
 

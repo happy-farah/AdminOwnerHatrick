@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> b1569ce (new AO)
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".createField">
 
     <Button
@@ -17,3 +22,185 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+    tools:context=".createField"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/fieldNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Field Name"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/darkCyan"
+        />
+
+    <EditText
+        android:id="@+id/fieldName"
+        android:layout_width="310dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="Field Name"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/fieldLocationTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Field Location"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/darkCyan"
+        />
+    <Spinner
+        android:id="@+id/fieldLocationSpn"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:outlineSpotShadowColor="@color/darkCyan"
+        android:elevation="10dp"
+        android:textAlignment="center"
+
+        />
+
+    <EditText
+        android:id="@+id/fieldLocation"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:hint="Street Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-60dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sport Type"
+        android:textColor="@color/darkCyan"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <Spinner
+        android:id="@+id/sportType"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:outlineSpotShadowColor="@color/darkCyan"
+        android:elevation="10dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Length(m)"
+        android:textColor="@color/darkCyan"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/length"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="175dp"
+        android:ems="10"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="width(m)"
+        android:textColor="@color/darkCyan"
+        android:textSize="16sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/width"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="number" />
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/darkCyan"
+        >
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Capacity(Maximum number of players)"
+        android:textColor="@color/darkCyan"
+        android:textSize="16sp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="0dp"
+        />
+
+    <EditText
+        android:id="@+id/capacity"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="215dp"
+        android:ems="10"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Price(JOD)"
+        android:textColor="@color/darkCyan"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="180dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/createField"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Create Field"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="50dp"/>
+
+
+</LinearLayout>
+</ScrollView>
+>>>>>>> b1569ce (new AO)
