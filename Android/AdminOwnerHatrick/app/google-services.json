@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "943665810471",
+    "firebase_url": "https://hatrick-main-default-rtdb.firebaseio.com",
+    "project_id": "hatrick-main",
+    "storage_bucket": "hatrick-main.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943665810471:android:dba5f5d3cf93dc3bf29202",
+        "android_client_info": {
+          "package_name": "com.example.adminownerhatrick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943665810471-lqido80r2uqc35l3c991blivrt7riah5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3AZR6UieybB0oAH9gX8ZV1yIY-9hOq-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943665810471-lqido80r2uqc35l3c991blivrt7riah5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943665810471:android:05a9acc6cd01aea6f29202",
+        "android_client_info": {
+          "package_name": "com.example.extra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943665810471-lqido80r2uqc35l3c991blivrt7riah5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3AZR6UieybB0oAH9gX8ZV1yIY-9hOq-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943665810471-lqido80r2uqc35l3c991blivrt7riah5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943665810471:android:d64df97386bed3c5f29202",
+        "android_client_info": {
+          "package_name": "com.example.hatrick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943665810471-lqido80r2uqc35l3c991blivrt7riah5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3AZR6UieybB0oAH9gX8ZV1yIY-9hOq-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943665810471-lqido80r2uqc35l3c991blivrt7riah5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
